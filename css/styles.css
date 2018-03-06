@@ -24,7 +24,7 @@
         text-transform: uppercase;
     }
 
-      /***** APP BAR STYLES *****/
+    /***** APP BAR STYLES *****/
     h1 {
         background-color: #3F51B5;
         color: white;
@@ -36,7 +36,7 @@
         list-style-type: none;
     }
   
-      /***** TAB BAR STYLES *****/
+    /***** TAB BAR STYLES *****/
     #tab-bar {
         background-color: white;
         color: black;
@@ -49,6 +49,11 @@
     .message {
         width: 80%;
         margin-bottom: 8px;
+        margin-left: 2.5%;
+        text-align: left;
+    }
+    .own-message {
+        margin-left: 17.5%;
     }
     .message strong {
         font-size: medium;
