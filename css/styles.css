@@ -45,4 +45,25 @@
         text-align: center;
     }
   
-      /***** MESSAGES STYLES *****/
+    /***** MESSAGES STYLES *****/
+    .message {
+        width: 80%;
+        margin-bottom: 8px;
+    }
+    .message strong {
+        font-size: medium;
+    }
+    .message p {
+        padding: 16px;
+        background-color: white;
+    }
+    .message em {
+        font-size: larger;
+        font-style: normal;
+    }
+    .message h3 a {
+        color: black;        
+    }
+    .message button {
+        background-color: #CDDC39;
+    }
