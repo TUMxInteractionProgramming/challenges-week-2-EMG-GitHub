@@ -38,11 +38,26 @@
   
     /***** TAB BAR STYLES *****/
     #tab-bar {
+        text-transform: uppercase;
         background-color: white;
-        color: black;
     }
     #tab-bar button {
+        width: 33%;
+        height: 72px;
+        display: inline-block;
+        background-color: white;
+        color: black;
+        border: none;
+        font-size: 13px;
         text-align: center;
+        padding: 16px;
+    }
+    #tab-bar button img {
+        display: block;
+        margin: 0 auto 4px;
+    }
+    #tab-bar button.selected {
+        border-bottom: 4px solid #3F51B5;
     }
   
     /***** MESSAGES STYLES *****/
