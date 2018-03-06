@@ -12,6 +12,37 @@
     */
 
     /***** GLOBAL STYLES *****/
-    * {          
+    * {
+        margin: 0;
+        padding: 0;          
         font-family: 'Roboto', sans-serif;
-      }
+    }
+    body {
+        background-color: #F5F5F5;
+    }
+    button, strong {
+        text-transform: uppercase;
+    }
+
+      /***** APP BAR STYLES *****/
+    h1 {
+        background-color: #3F51B5;
+        color: white;
+    }
+  
+    /***** CHANNELS LIST STYLES *****/
+    ul {
+        background-color: white;
+        list-style-type: none;
+    }
+  
+      /***** TAB BAR STYLES *****/
+    #tab-bar {
+        background-color: white;
+        color: black;
+    }
+    #tab-bar button {
+        text-align: center;
+    }
+  
+      /***** MESSAGES STYLES *****/
